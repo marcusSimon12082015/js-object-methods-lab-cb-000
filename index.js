@@ -11,7 +11,7 @@ class President
   veto(){ return("No!");}
   passBill(){ return("You can do that!");}
   doCharity(){ return("I like to help people.");}
-  conductPressInterview(){ return("I am proud to be an American");}
+  conductPressInterview(){ return("I am proud to be an American.");}
   sayHi(){ return("Hi, my name is "+ this.name +". I am from "+this.homeState+". I present the "+
                   this.politicalParty+"s, and was in office "+this.yearsInOffice+".");}
 }
